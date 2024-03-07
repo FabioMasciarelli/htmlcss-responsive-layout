@@ -26,6 +26,8 @@ body {
 
 .fourty {
     width: 40%;
+    /* debug */
+    height: 100px;
 }
 
 .fifty {
@@ -36,6 +38,8 @@ body {
 
 .sixty {
     width: 60%;
+    /* debug */
+    height: 100px;
 }
 
 .m-auto {
@@ -116,6 +120,18 @@ header {
     border: 1px solid black;
 }
 
+.description{
+    background-color: chartreuse;
+    /* debug */
+    height: 100px;
+}
+
+.profile {
+    background-color: orange;
+    /* debug */
+    height: 100px;
+}
+
 /* TABLET */
 @media screen and (min-width: 768px){
 
@@ -144,10 +160,23 @@ header {
     .benefits {
         width: calc(100% / 2 - 15px);
     }
+
+    .about-us {
+        display: flex;
+    }
+
+    .description {
+        width: 60%;
+    }
+
+    .profile {
+        width: 40%;
+    }
 }
 
 /* DESKTOP */
 @media screen and (min-width: 992px) {
+
     .hamb {
         display: none;
     }
