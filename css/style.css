@@ -30,6 +30,8 @@ body {
 
 .fifty {
     width: 50%;
+    /* debug */
+    height: 100px;
 }
 
 .sixty {
@@ -55,8 +57,6 @@ li {
 .violet {
     background-color: #9792e4;
     width: 100%;
-    /* debug */
-    height: 200px;
 }
 
 .blue {
@@ -106,6 +106,16 @@ header {
     width: 100%;
 }
 
+.benefits {
+    border-radius: 10px;
+    margin: 10px auto;
+    width: 80%;
+    /* debug */
+    background-color: aquamarine;
+    height: 100px;
+    border: 1px solid black;
+}
+
 /* TABLET */
 @media screen and (min-width: 768px){
 
@@ -124,6 +134,16 @@ header {
     .second {
         width: 30%;
     }
+
+    .wrap {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .benefits {
+        width: calc(100% / 2 - 15px);
+    }
 }
 
 /* DESKTOP */
@@ -139,5 +159,9 @@ header {
 
     .desktop {
         display: flex;
+    }
+
+    .benefits {
+        width: calc(100% / 3 - 15px);
     }
 }
