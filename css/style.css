@@ -59,6 +59,13 @@ li {
     height: 200px;
 }
 
+.blue {
+    background-color: #0084fd;
+    /* debug */
+    height: 100px;
+    border: 1px solid black;
+}
+
 /* BODY */
 header {
     width: 100%;
@@ -102,7 +109,7 @@ header {
 /* TABLET */
 @media screen and (min-width: 768px){
 
-    .tablet {
+    .row {
         display: flex;
     }
 
