@@ -28,8 +28,16 @@ body {
     width: 40%;
 }
 
+.fifty {
+    width: 50%;
+}
+
 .sixty {
     width: 60%;
+}
+
+.m-auto {
+    margin: auto;
 }
 
 .padding10 {
@@ -42,6 +50,13 @@ ul {
 
 li {
     padding: 5px;
+}
+
+.violet {
+    background-color: #9792e4;
+    width: 100%;
+    /* debug */
+    height: 200px;
 }
 
 /* BODY */
@@ -87,7 +102,7 @@ header {
 /* TABLET */
 @media screen and (min-width: 768px){
 
-    .row {
+    .tablet {
         display: flex;
     }
 
@@ -113,5 +128,9 @@ header {
     .menu {
         height: 100%;
         width: 100%;
+    }
+
+    .desktop {
+        display: flex;
     }
 }
