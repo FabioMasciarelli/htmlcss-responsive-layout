@@ -7,6 +7,7 @@
 
 img {
     max-width: 100%;
+    object-fit: cover;
 }
 
 body {
@@ -26,6 +27,14 @@ p {
 /* UTILITIES */
 .w-text {
     color: white;
+}
+
+.b-text{
+    color: #0084fd;
+}
+
+.v-text {
+    color: #9792e4;
 }
 
 .flex {
@@ -50,14 +59,10 @@ p {
 
 .fifty {
     width: 50%;
-    /* debug */
-    height: 100px;
 }
 
 .sixty {
     width: 60%;
-    /* debug */
-    height: 100px;
 }
 
 .m-auto {
@@ -68,8 +73,16 @@ p {
     margin-bottom: 10px;
 }
 
+.m-top {
+    margin-top: 10px;
+}
+
 .padding10 {
     padding: 10px;
+}
+
+.padding20 {
+    padding: 20px;
 }
 
 .padding-top {
@@ -86,15 +99,23 @@ li {
 
 .violet {
     background-color: #9792e4;
-    width: 100%;
 }
 
 .blue {
     background-color: #0084fd;
 }
 
-.b-text{
-    color: #0084fd;
+.white {
+    background-color: white;
+    margin: 20px 0;
+}
+
+.br10 {
+    border-radius: 10px;
+}
+
+.br20 {
+    border-radius: 20px;
 }
 
 .a-center {
@@ -143,13 +164,17 @@ header {
 
 .card {
     background-color: #b5ddff;
-    border-radius: 10px;
     margin: 10px;
     padding: 10px;
 }
 
+.round {
+    border-radius: 50%;
+    width: 100px;
+    aspect-ratio: 1;
+}
+
 .benefits {
-    border-radius: 10px;
     margin: 10px auto;
     width: 80%;
     /* debug */
@@ -164,23 +189,17 @@ header {
     height: 100px;
 }
 
-.profile {
-    background-color: orange;
-    /* debug */
-    height: 100px;
-}
-
 /* TABLET */
 @media screen and (min-width: 768px){
-
+    
     .row {
         display: flex;
     }
-
+    
     .under {
         width: calc(100% / 3);
     }
-
+    
     .card {
         width: 70%;
     }
@@ -209,6 +228,20 @@ header {
 
     .profile {
         width: 40%;
+    }
+
+    .tablet {
+        display: flex;
+        align-items: center;
+    }
+
+    .profile {
+        width: 30%;
+        display: block;
+    }
+    .paragraph {
+        width: 50%;
+        display: block;
     }
 }
 
