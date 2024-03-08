@@ -2,14 +2,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: PT Sans;
+    font-family: "PT Sans", sans-serif;
+}
+
+img {
+    max-width: 100%;
 }
 
 body {
     margin-top: 100px;
 }
 
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+p {
+    color: #657b8e;
+}
+
+
 /* UTILITIES */
+.w-text {
+    color: white;
+}
+
 .flex {
     display: flex;
 }
@@ -46,8 +64,16 @@ body {
     margin: auto;
 }
 
+.m-bottom {
+    margin-bottom: 10px;
+}
+
 .padding10 {
     padding: 10px;
+}
+
+.padding-top {
+    padding-top: 20px;
 }
 
 ul {
@@ -65,9 +91,23 @@ li {
 
 .blue {
     background-color: #0084fd;
-    /* debug */
-    height: 100px;
-    border: 1px solid black;
+}
+
+.b-text{
+    color: #0084fd;
+}
+
+.a-center {
+    text-align: center;
+}
+
+.button {
+    padding: 10px 20px;
+    border-radius: 40px;
+}
+
+.f-size3{
+    font-size: 3rem;
 }
 
 /* BODY */
@@ -105,9 +145,7 @@ header {
     background-color: #b5ddff;
     border-radius: 10px;
     margin: 10px;
-    /* debug */
-    height: 100px;
-    width: 100%;
+    padding: 10px;
 }
 
 .benefits {
@@ -143,7 +181,7 @@ header {
         width: calc(100% / 3);
     }
 
-    .first {
+    .card {
         width: 70%;
     }
 
@@ -188,6 +226,11 @@ header {
 
     .desktop {
         display: flex;
+    }
+
+    .app-store ,
+    .box-img{
+        width: 50%;
     }
 
     .benefits {
