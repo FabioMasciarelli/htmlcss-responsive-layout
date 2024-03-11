@@ -21,6 +21,8 @@ a {
 
 p {
     color: #657b8e;
+    letter-spacing: 1px;
+    line-height: 1.8;
 }
 
 
@@ -186,83 +188,3 @@ header {
     height: 100px;
 }
 
-/* TABLET */
-@media screen and (min-width: 768px){
-    
-    .row {
-        display: flex;
-    }
-    
-    .under {
-        width: calc(100% / 3);
-    }
-    
-    .card {
-        width: 70%;
-    }
-
-    .second {
-        width: 30%;
-    }
-
-    .wrap {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .benefits {
-        width: calc(100% / 2 - 15px);
-    }
-
-    .about-us {
-        display: flex;
-    }
-
-    .description {
-        width: 60%;
-    }
-
-    .profile {
-        width: 40%;
-    }
-
-    .tablet {
-        display: flex;
-        align-items: center;
-    }
-
-    .profile {
-        width: 10%;
-        display: block;
-    }
-    .paragraph {
-        width: 90%;
-        display: block;
-    }
-}
-
-/* DESKTOP */
-@media screen and (min-width: 992px) {
-
-    .hamb {
-        display: none;
-    }
-
-    .menu {
-        height: 100%;
-        width: 100%;
-    }
-
-    .desktop {
-        display: flex;
-    }
-
-    .app-store ,
-    .box-img{
-        width: 50%;
-    }
-
-    .benefits {
-        width: calc(100% / 3 - 15px);
-    }
-}
