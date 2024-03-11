@@ -174,11 +174,7 @@ header {
 
 .benefits {
     margin: 10px auto;
-    width: 80%;
-    /* debug */
-    background-color: aquamarine;
-    height: 100px;
-    border: 1px solid black;
+    border-radius: 20px;
 }
 
 .description{
